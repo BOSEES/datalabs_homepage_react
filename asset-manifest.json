@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/datalabs_homepage_react/static/css/main.4e4d27de.css",
-    "main.js": "/datalabs_homepage_react/static/js/main.a57d3a03.js",
+    "main.js": "/datalabs_homepage_react/static/js/main.c20c161a.js",
     "static/media/NotoSansKR-Bold.otf": "/datalabs_homepage_react/static/media/NotoSansKR-Bold.c252383c4f70753be0e7.otf",
     "static/media/NotoSansKR-Medium.otf": "/datalabs_homepage_react/static/media/NotoSansKR-Medium.56207b5e52841342a21b.otf",
     "static/media/NotoSansKR-Light.otf": "/datalabs_homepage_react/static/media/NotoSansKR-Light.636ff9b51e826a733c3d.otf",
@@ -10,10 +10,10 @@
     "static/media/GmarketSansTTFLight.ttf": "/datalabs_homepage_react/static/media/GmarketSansTTFLight.efaa8f19ead1555b1c39.ttf",
     "index.html": "/datalabs_homepage_react/index.html",
     "main.4e4d27de.css.map": "/datalabs_homepage_react/static/css/main.4e4d27de.css.map",
-    "main.a57d3a03.js.map": "/datalabs_homepage_react/static/js/main.a57d3a03.js.map"
+    "main.c20c161a.js.map": "/datalabs_homepage_react/static/js/main.c20c161a.js.map"
   },
   "entrypoints": [
     "static/css/main.4e4d27de.css",
-    "static/js/main.a57d3a03.js"
+    "static/js/main.c20c161a.js"
   ]
 }
