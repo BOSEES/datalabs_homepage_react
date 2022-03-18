@@ -5,29 +5,29 @@ import { PRIMARY_COLOR, GREY_FONT_COLOR } from "../../../common/color/color";
 
 const Items = [
     {
-        background: "/images/ideo1.png",
-        icon:"/images/ideo_icon1.png",
+        background: "https://bosees.github.io/datalabs_homepage_react/images/ideo1.png",
+        icon:"https://bosees.github.io/datalabs_homepage_react/images/ideo_icon1.png",
         title: "평등한 업무 수행",
         subTitle: ["수직관계가 아닌", "수평적 문화에서 업무 진행!"],
     },
     null,
     {
-        background: "/images/ideo2.png",
-        icon:"/images/ideo_icon2.png",
+        background: "https://bosees.github.io/datalabs_homepage_react/images/ideo2.png",
+        icon:"https://bosees.github.io/datalabs_homepage_react/images/ideo_icon2.png",
         title: "자기 주도적 업무",
         subTitle: ["무리한 업무보다는", "효율적인 업무를!"],
     },
     null,
     {
-        background: "/images/ideo3.png",
-        icon:"/images/ideo_icon3.png",
+        background: "https://bosees.github.io/datalabs_homepage_react/images/ideo3.png",
+        icon:"https://bosees.github.io/datalabs_homepage_react/images/ideo_icon3.png",
         title: "자율 츌퇴근제",
         subTitle: ["개인 사정에 따른", "탄력적인 출퇴근!"],
     },
     null,
     {
-        background: "/images/ideo4.png",
-        icon:"/images/ideo_icon4.png",
+        background: "https://bosees.github.io/datalabs_homepage_react/images/ideo4.png",
+        icon:"https://bosees.github.io/datalabs_homepage_react/images/ideo_icon4.png",
         title: "주 4일 근무",
         subTitle: ["모두가 행복한 회사를 위한", "데이터랩스만의 워라벨 정책!"],
     },
@@ -109,7 +109,7 @@ export const Ideology = () => {
                     } else {
                         return (
                             <div key={index} style={{display:"flex", alignItems:"center"}}>
-                                <img style={{width:"2.3vw", height:"2.3vw"}} src="/images/plus.png"/>
+                                <img style={{width:"2.3vw", height:"2.3vw"}} src="https://bosees.github.io/datalabs_homepage_react/images/plus.png"/>
                             </div>
                         )
                     }

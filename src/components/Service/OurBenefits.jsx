@@ -5,14 +5,14 @@ import { GmarketMedium, NoteSansLight } from "../../common/Text/Text";
 
 const items = [
     {
-        image: "/images/time.png",
+        image: "https://bosees.github.io/datalabs_homepage_react/images/time.png",
         title: "개발 시간 단축",
         description: [
             "노드를 직접 운영하지 않아 온전한 개발에 집중",
         ]
     },
     {
-        image: "/images/gear.png",
+        image: "https://bosees.github.io/datalabs_homepage_react/images/gear.png",
         title: "편의성",
         description: [
             "REST API, SDK로 데이터체인에서 지원하는 모든 타입의 트랜젝션 전송 가능",
@@ -20,7 +20,7 @@ const items = [
         ]
     },
     {
-        image: "/images/lock.png",
+        image: "https://bosees.github.io/datalabs_homepage_react/images/lock.png",
         title: "계정 키 관리",
         description: [
             "데이터체인 계정의 개인키 유출이 불가능한 구조를 사용",
@@ -28,7 +28,7 @@ const items = [
         ]
     },
     {
-        image: "/images/won.png",
+        image: "https://bosees.github.io/datalabs_homepage_react/images/won.png",
         title: "비용 절약",
         description: [
             "노드 설치가 필요업어 고성능의 하드웨어가 필요하지 않음",

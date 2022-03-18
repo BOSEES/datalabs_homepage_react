@@ -7,7 +7,7 @@ import { Intro } from "./Intro";
 const BannerContainer = styled.div`
     display: flex;
     position: relative;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(17, 39, 97, 0.3)), url("/images/technology_background.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(17, 39, 97, 0.3)), url("https://bosees.github.io/datalabs_homepage_react/images/technology_background.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 30rem;

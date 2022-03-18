@@ -5,7 +5,7 @@ import { PRIMARY_COLOR, GREY_FONT_COLOR } from "../../common/color/color";
 
 const items = [
     {   
-        image: "/images/chain.png",
+        image: "https://bosees.github.io/datalabs_homepage_react/images/chain.png",
         headTitle : "진정한",
         subTitle : "마이데이터",
         desciption1 : "마이 인포 마켓은 개인 정보를",
@@ -13,7 +13,7 @@ const items = [
         desciption3 : "제공 이력을 관리할 수 있습니다.",
     },
     {
-        image: "/images/coin.png",
+        image: "https://bosees.github.io/datalabs_homepage_react/images/coin.png",
         headTitle : "보상받는",
         subTitle : "마이데이터",
         desciption1 : "제 3의 동의 절차 없이",
@@ -21,7 +21,7 @@ const items = [
         desciption3 : "보상받을 수 있습니다.",
     },
     {
-        image: "/images/handshake.png",
+        image: "https://bosees.github.io/datalabs_homepage_react/images/handshake.png",
         headTitle : "믿을 수 있는",
         subTitle : "마이데이터",
         desciption1 : "마이데이터를",
@@ -34,7 +34,7 @@ const items = [
 const CharContainer = styled.section`
     background-color: #EEEEEE;
     padding: 10rem;
-    background-image: url("/images/my_info_characteristics_background.png");
+    background-image: url("https://bosees.github.io/datalabs_homepage_react/images/my_info_characteristics_background.png");
 `
 
 const CharTitleContainer = styled.div`

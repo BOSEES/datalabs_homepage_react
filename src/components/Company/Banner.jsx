@@ -5,7 +5,7 @@ import { WHITE_FONT_COLOR } from "../../common/color/color";
 
 const BannerContainer = styled.div`
     display: flex;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(17, 39, 97, 0.3)), url("/images/company_banner.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(17, 39, 97, 0.3)), url("https://bosees.github.io/datalabs_homepage_react/images/company_banner.png");
     background-repeat: no-repeat;
     background-size: cover;
     height:30rem;

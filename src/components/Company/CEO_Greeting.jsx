@@ -23,7 +23,7 @@ export const CEOGreeting = () => {
             <GmarketBold fontColor={PRIMARY_COLOR} fontSize={"3vw"} fontWeight={"bold"}>CEO 인사말</GmarketBold>
             <GreetingDescription>
                 <div>
-                    <img style={{width:"25vw"}} src="/images/ceo_profile.png" alt="프사"/>
+                    <img style={{width:"25vw"}} src="https://bosees.github.io/datalabs_homepage_react/images/ceo_profile.png" alt="프사"/>
                     <div style={{display: "flex", height:"5rem", alignItems:"center", justifyContent:"center"}}>
                         <GmarketMedium fontColor={PRIMARY_COLOR} fontSize={"1vw"}>[블록체인이 세상을 바꾼다]</GmarketMedium>
                         <GmarketMedium fontColor={GREY_FONT_COLOR} fontSize={"0.8vw"}>저자</GmarketMedium>

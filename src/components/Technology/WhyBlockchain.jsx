@@ -8,7 +8,7 @@ const items = [
     {   
         id: 1,
         title: "개인 데이터 주권",
-        image: "/images/why_item1.png",
+        image: "https://bosees.github.io/datalabs_homepage_react/images/why_item1.png",
         text: `기존 마이데이터는 유저의 정보를 데이터 보유사의
         중앙 DB에 저장하여 기업의 필요에 따라 관리해왔습니다.
 
@@ -21,7 +21,7 @@ const items = [
     {   
         id: 2,
         title: "개인 정보데이터의 탈중앙화",
-        image: "/images/why_item2.png",
+        image: "https://bosees.github.io/datalabs_homepage_react/images/why_item2.png",
         text: `개인 정보를 개개인의 기기에 저장함으로써
         중앙 서버에서 DB를 가져오는 기존 방식과는 다르게
         데이터의 탈중앙화 관리가 가능해집니다.
@@ -33,7 +33,7 @@ const items = [
     {
         id: 3,
         title: "투명한 원장",
-        image: "/images/why_item3.png",
+        image: "https://bosees.github.io/datalabs_homepage_react/images/why_item3.png",
         text: `마이데이터 거래 내역은 블록체인 원장에 기록되어
         이것은 나의 데이터가 어떻게 이동했는지
         투명하게 확인할 수 있습니다.
@@ -128,7 +128,7 @@ export const WhyBlockchain = () => {
                                         ...arrowStyles,
                                         left: "8rem",
                                         width: "1vw",
-                                    }} ><img src="/images/blue_left_arrow.png" alt="왼쪽 화살표"/></div>)
+                                    }} ><img src="https://bosees.github.io/datalabs_homepage_react/images/blue_left_arrow.png" alt="왼쪽 화살표"/></div>)
                             }}
                             renderArrowNext={(onClickHandler, hasNext, label) => {
                                 return (<div 
@@ -138,7 +138,7 @@ export const WhyBlockchain = () => {
                                         ...arrowStyles,
                                         right: "8rem",
                                         width: "1vw",
-                                    }} ><img src="/images/blue_right_arrow.png" alt="오른쪽 화살표"/></div>)
+                                    }} ><img src="https://bosees.github.io/datalabs_homepage_react/images/blue_right_arrow.png" alt="오른쪽 화살표"/></div>)
                                 }}
                                 onChange={(index)=>{ setItem(index)}}
                                 showThumbs={false}
@@ -146,13 +146,13 @@ export const WhyBlockchain = () => {
                                 infiniteLoop={true}
                             >
                             <div>
-                                <img src="/images/why_slide1.png" alt="백그라운드 이미지" ></img>
+                                <img src="https://bosees.github.io/datalabs_homepage_react/images/why_slide1.png" alt="백그라운드 이미지" ></img>
                             </div>
                             <div>
-                                <img src="/images/why_slide2.png" alt="백그라운드 이미지" ></img>
+                                <img src="https://bosees.github.io/datalabs_homepage_react/images/why_slide2.png" alt="백그라운드 이미지" ></img>
                             </div>
                             <div>
-                                <img src="/images/why_slide3.png" alt="백그라운드 이미지" ></img>
+                                <img src="https://bosees.github.io/datalabs_homepage_react/images/why_slide3.png" alt="백그라운드 이미지" ></img>
                             </div>
                         </Carousel>
                     </div>
