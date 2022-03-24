@@ -306,7 +306,7 @@ export const Recruitment = () => {
                                 </NoteSansLight>
                             </div>
                             <div style={{margin: "1vw"}}>
-                                <img src="https://bosees.github.io/datalabs_homepage_react/images/company1.png" alt="지도"/>
+                                <img src="https://res.cloudinary.com/dz7lhzjdh/image/upload/v1648086087/images/company1_nw6fkd.png" alt="지도"/>
                             </div>
                         </li>
                         <li>
@@ -319,7 +319,7 @@ export const Recruitment = () => {
                                 </NoteSansLight>
                             </div>
                             <div style={{margin: "1vw"}}>
-                                <img src="https://bosees.github.io/datalabs_homepage_react/images/company1.png" alt="지도"/>
+                                <img src="https://res.cloudinary.com/dz7lhzjdh/image/upload/v1648086087/images/company1_nw6fkd.png" alt="지도"/>
                             </div>
                         </li>
                     </UnOrderListStyle>

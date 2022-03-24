@@ -94,7 +94,7 @@ export const MyInfoMarketSlideBanner = () => {
                             ...arrowStyles,
                             left: "10vw",
                             width: "1vw",
-                        }} ><img src="https://bosees.github.io/datalabs_homepage_react/images/left_arrow.png" alt="왼쪽 화살표"/></div>)
+                        }} ><img src="https://res.cloudinary.com/dz7lhzjdh/image/upload/v1648086085/images/left_arrow_qu9a0j.png" alt="왼쪽 화살표"/></div>)
                 }}
                 renderArrowNext={(onClickHandler, hasPrev, label) => {
                     return (<div 
@@ -104,7 +104,7 @@ export const MyInfoMarketSlideBanner = () => {
                             ...arrowStyles,
                             right: "10vw",
                             width: "1vw",
-                        }} ><img src="https://bosees.github.io/datalabs_homepage_react/images/right_arrow.png" alt="오른쪽 화살표"/></div>)
+                        }} ><img src="https://res.cloudinary.com/dz7lhzjdh/image/upload/v1648086086/images/right_arrow_zmp3ut.png" alt="오른쪽 화살표"/></div>)
                     }}
                     showThumbs={false}
                     renderIndicator={false}
@@ -112,7 +112,7 @@ export const MyInfoMarketSlideBanner = () => {
                 >
                     <div>
                         <img 
-                            src="https://bosees.github.io/datalabs_homepage_react/images/slide_background_1.png" 
+                            src="https://res.cloudinary.com/dz7lhzjdh/image/upload/v1648086086/images/slide_background_1_f0bivy.png" 
                             title={imageData[0].title} 
                             subTitle={imageData[0].subTitle}
                             image={imageData[0].image}
@@ -121,7 +121,7 @@ export const MyInfoMarketSlideBanner = () => {
                     </div>
                     <div>
                         <img 
-                            src="https://bosees.github.io/datalabs_homepage_react/images/slide_background_2.png" 
+                            src="https://res.cloudinary.com/dz7lhzjdh/image/upload/v1648086088/images/slide_background_2_apbdo6.webp" 
                             title={imageData[1].title} 
                             subTitle={imageData[1].subTitle} 
                             image={imageData[1].image}
@@ -130,7 +130,7 @@ export const MyInfoMarketSlideBanner = () => {
                     </div>
                     <div>
                         <img 
-                            src="https://bosees.github.io/datalabs_homepage_react/images/slide_background_3.png"
+                            src="https://res.cloudinary.com/dz7lhzjdh/image/upload/v1648086086/images/slide_background_3_flqbtm.png"
                             title={imageData[2].title} 
                             subTitle={imageData[2].subTitle} 
                             image={imageData[2].image}
