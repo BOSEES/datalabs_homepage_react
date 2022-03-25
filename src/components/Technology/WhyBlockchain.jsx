@@ -99,7 +99,7 @@ export const WhyBlockchain = () => {
         <WhyContainer>
             <div style={{textAlign:"center", margin: "2vw"}}>
                 <GmarketBold fontColor={PRIMARY_COLOR} fontWeight={"bold"} fontSize={"3vw"} >Why</GmarketBold>
-                <GmarketBold fontColor={PRIMARY_COLOR} fontWeight={"bold"} fontSize={"3vw"} >Block chain</GmarketBold>
+                <GmarketBold fontColor={PRIMARY_COLOR} fontWeight={"bold"} fontSize={"3vw"} >Blockchain</GmarketBold>
                 <NoteSansMedium fontColor={GREY_FONT_COLOR} fontSize={"1vw"} >데이터랩스가 블록체인을 지향하는 이유</NoteSansMedium>
             </div>
             <SlideImageContainer>
@@ -144,6 +144,7 @@ export const WhyBlockchain = () => {
                                 showThumbs={false}
                                 renderIndicator={false}
                                 infiniteLoop={true}
+                                autoPlay={true}
                             >
                             <div>
                                 <img src="https://res.cloudinary.com/dz7lhzjdh/image/upload/v1648086088/images/why_slide1_ctbjjf.webp" alt="백그라운드 이미지" ></img>

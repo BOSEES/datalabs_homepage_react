@@ -12,6 +12,7 @@
     "react-lottie-player": "^1.4.1",
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.2.2",
+    "react-router-sitemap": "^1.2.0",
     "react-scripts": "5.0.0",
     "react-youtube": "^7.14.0",
     "styled-components": "^5.3.3",
@@ -23,7 +24,9 @@
     "build": "react-scripts build",
     "deploy": "npm run build && gh-pages -d build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "sitemap": "babel-node ./src/sitemap-builder.js"
+
   },
   "eslintConfig": {
     "extends": [
@@ -43,5 +46,13 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://bosees.github.io/datalabs_homepage_react/"
+  "homepage": "https://bosees.github.io/datalabs_homepage_react/",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "install": "^0.13.0",
+    "npm": "^8.5.5"
+  }
 }

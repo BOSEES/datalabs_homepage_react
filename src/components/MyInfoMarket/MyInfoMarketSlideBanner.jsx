@@ -127,6 +127,7 @@ export const MyInfoMarketSlideBanner = () => {
                     showThumbs={false}
                     renderIndicator={false}
                     infiniteLoop={true}
+                    autoPlay={true}
                 >
                     <div>
                         <img 

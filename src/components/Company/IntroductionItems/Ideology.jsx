@@ -21,7 +21,7 @@ const Items = [
     {
         background: "https://res.cloudinary.com/dz7lhzjdh/image/upload/v1648086089/images/ideo3_o9zibr.webp",
         icon:"https://res.cloudinary.com/dz7lhzjdh/image/upload/v1648086089/images/ideo_icon3_s6shhd.webp",
-        title: "자율 츌퇴근제",
+        title: "자율 출퇴근제",
         subTitle: ["개인 사정에 따른", "탄력적인 출퇴근!"],
     },
     null,
@@ -109,7 +109,7 @@ export const Ideology = () => {
                     } else {
                         return (
                             <div key={index} style={{display:"flex", alignItems:"center"}}>
-                                <img style={{width:"2.3vw", height:"2.3vw"}} src="https://res.cloudinary.com/dz7lhzjdh/image/upload/v1648086085/images/plus_pdlzdq.png"/>
+                                <img style={{width:"2.3vw", height:"2.3vw"}} src="https://res.cloudinary.com/dz7lhzjdh/image/upload/v1648086085/images/plus_pdlzdq.png" alt="플러스"/>
                             </div>
                         )
                     }

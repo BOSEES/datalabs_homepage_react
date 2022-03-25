@@ -61,7 +61,9 @@ export const MyInfoMarketDescription = () => {
                                 개인 데이터 보호가 강화됩니다.`}
                         </NoteSansLight>
                         <div style={{marginTop:"2rem", display: "flex", width: "20vw"}}>
-                            <img style={{marginRight: "1rem", width: "10vw", height: "3vw"}} src="https://res.cloudinary.com/dz7lhzjdh/image/upload/v1648086085/images/google_button_cyoahz.png" alt="버튼1" />
+                            <a href="https://play.google.com/store/apps/details?id=com.onedaydemo" rel="noreferrer" target="_blank">
+                                <img style={{marginRight: "1rem", width: "10vw", height: "3vw"}} src="https://res.cloudinary.com/dz7lhzjdh/image/upload/v1648086085/images/google_button_cyoahz.png" alt="버튼1" /> 
+                            </a>
                             <img style={{marginRight: "1rem", width: "10vw", height: "3vw"}} src="https://res.cloudinary.com/dz7lhzjdh/image/upload/v1648086087/images/apple_button_dsxirk.png" alt="버튼2" />
                         </div>
                     </div>

@@ -54,13 +54,12 @@ const CharItem = styled.div`
     flex-direction: column;
     background-color: white;
     margin: 1rem;
-    min-width:19rem;
-    width: 17vw;
+    min-width:13rem;
+    min-height: 10rem;
+    width: 20vw;
     height: 18vw;
     align-items: center;
     justify-content: center;
-    padding : 2rem;
-    padding-top:5rem;
 `
 
 const CurcleImage = styled.div`
@@ -68,25 +67,25 @@ const CurcleImage = styled.div`
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: -5rem;
+    top: -5vw;
     background-color: ${PRIMARY_COLOR};
-    width: 10rem;
-    height: 10rem;
+    width: 10vw;
+    height: 10vw;
     border-radius: 50%;
 `
 
 const Item = ({image, headTitle, subTitle, desciption1, desciption2, desciption3}) => {
     return (
         <CharItem>
-            <GmarketBold fontColor={PRIMARY_COLOR} fontSize={"1.8vw"} fontWeight={"bold"}>{`"${headTitle}"`}</GmarketBold>
+            <GmarketBold styles={{marginTop:"4rem"}} fontColor={PRIMARY_COLOR} fontSize={"1.8vw"} fontWeight={"bold"}>{`"${headTitle}"`}</GmarketBold>
             <GmarketBold fontColor={"#979aba"} fontSize={"1.8vw"} fontWeight={"bold"}>{subTitle}</GmarketBold>
-            <div style={{marginTop: "1rem", textAlign:"center"}}>
+            <div style={{marginTop: "1rem", textAlign:"center",marginBottom: "1rem"}}>
                 <NoteSansMedium fontColor={GREY_FONT_COLOR} fontSize={"1vw"} >{desciption1}</NoteSansMedium>
                 <NoteSansMedium fontColor={GREY_FONT_COLOR} fontSize={"1vw"} >{desciption2}</NoteSansMedium>
                 <NoteSansMedium fontColor={GREY_FONT_COLOR} fontSize={"1vw"} >{desciption3}</NoteSansMedium>
             </div> 
             <CurcleImage>
-                <img src={image} alt="아이콘 이미지"/>
+                <img style={{width:"50%", height:"50%"}} src={image} alt="아이콘 이미지"/>
             </CurcleImage>
         </CharItem>
     )
